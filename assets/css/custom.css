@@ -1,0 +1,121 @@
+.checkbox{
+	display: inline;
+	margin: 0 5px;
+}
+.pointer{
+	cursor:pointer;
+}
+.required{
+	font-weight: bold;
+	color: red;
+}
+.optional{
+	font-style: italic;
+	color: blue;
+}
+.login-logo, .register-logo {
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.login-page:before{
+	position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-position: center top;
+    -webkit-background-size: cover;
+    background-size: cover;
+	background-image: url(/images/background.jpg);
+	webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.login-page:after{
+	position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: rgba(38,50,56,.6);
+	webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.login-logo a, .register-logo a {
+    color: #fefefe;
+}
+.login-box-body, .register-box-body{
+	background:none;
+	padding-top: 10px;
+}
+.login-box-msg, .register-box-msg{
+	color:#ccc;
+}
+.login-box-body .form-control,.register-box-body .form-control{
+	color: #76838f;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e4eaec;
+    border-radius: 3px!important;
+}
+.login-box-body .checkbox-custom label{
+	font-weight:normal;
+	color:#ccc;
+	cursor:pointer;
+}
+.login-box-body .btn:hover,.register-box-body .btn:hover{
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	transition: all .3s ease;
+}
+.login-box-body .btn-success,.register-box-body .btn-success{
+	padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.57142857;
+    border-radius: 3px;
+	margin-bottom: 15px;
+	font-size: initial;
+	text-align: center;
+}
+.register-box-body .btn-success{
+	margin-bottom:0;
+}
+.login-box-body .btn-social,.register-box-body .btn-social{
+    border-radius: 3px;
+	color: #fff;
+	text-align: center;
+}
+.login-box-body .btn-social:hover,.register-box-body .btn-social:hover{
+    color:#ccc;
+}
+.login-page .center-block,.register-page .center-block{
+	text-align:center;
+}
+.login-box-body a,.register-box-body a{
+	color: #62a8ea;
+}
+.login-box-body a:hover,.register-box-body a:hover{
+	color:#82a8ea;
+}
+.page-copyright {
+    color: #aaa!important;
+	text-align:center;
+    margin-top: 45px;
+    font-size: 12px;
+    color: #37474f;
+    letter-spacing: 1px;
+}
+.btn-social>:first-child {
+	width:45px;
+    left: 5px;
+}
+.login-box, .register-box {
+    margin: 2% auto;
+}

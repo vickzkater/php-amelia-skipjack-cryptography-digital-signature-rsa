@@ -1,0 +1,13 @@
+.thead{
+	background-color: grey; /*#3c8dbc;*/
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+.numbering{
+	font-weight: bold;
+	text-align: center;
+}
+.center{
+	text-align: center;
+}
